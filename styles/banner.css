@@ -1,4 +1,10 @@
 .banner{
     background: var(--azul-degrade) ;
     color: var(--branco);
+    text-align: center;
+}
+
+.bnanner__titulo{
+    font-size: 18px;
+    font-weight: 700;
 }
