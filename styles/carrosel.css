@@ -17,3 +17,7 @@
 .swiper-buttom-prev, .swiper-buttom-next{
     display: none;
 }
+
+.swiper-pagination{
+    position: initial;
+}
