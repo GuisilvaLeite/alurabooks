@@ -47,6 +47,9 @@
   <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
+   <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+  
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide"><img src="img/ApacheKafka.svg"></div>
@@ -56,10 +59,7 @@
     <div class="swiper-slide"><img src="img/Angular.svg"></div>
     <div class="swiper-slide"><img src="img/Portugol.svg"></div>
   </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
+   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
 
@@ -72,6 +72,10 @@
   const swiper = new Swiper('.swiper', {
     spaceBetween: 10,
     slidesPerView: 3,
+    pagination{
+     el: 'swiper-pagination',
+     type: 'bullets',
+    },
 });
 </script>
 </body>
