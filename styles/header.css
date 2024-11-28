@@ -31,11 +31,11 @@
     width: 60vw;
 }
 
-.container__botao:checked.lista__menu{
+.container__botao:checked~.lista__menu{
     display: block;
 }
 
-.lista-menu__titulo, .lista-menu__titulo{
+.lista-menu__titulo, .lista__item{
     padding: 1em;
     background-color: var(--branco);
 }
